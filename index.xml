@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>General Magpie Programming</title>
+    <link>http://chaza150.github.io/</link>
+    <description>Recent content on General Magpie Programming</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 04 Jun 2020 13:43:50 +0100</lastBuildDate>
+    
+	<atom:link href="http://chaza150.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>D</title>
+      <link>http://chaza150.github.io/dir1/d/</link>
+      <pubDate>Thu, 04 Jun 2020 12:44:57 +0100</pubDate>
+      
+      <guid>http://chaza150.github.io/dir1/d/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A</title>
+      <link>http://chaza150.github.io/a/</link>
+      <pubDate>Thu, 04 Jun 2020 12:17:59 +0100</pubDate>
+      
+      <guid>http://chaza150.github.io/a/</guid>
+      <description>Markdown file
+bold text </description>
+    </item>
+    
+  </channel>
+</rss>
