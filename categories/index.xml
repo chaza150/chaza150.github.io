@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Categories on Magpie Programming</title>
-    <link>https://chaza150.github.io/categories/</link>
+    <link>https://magpieprogramming.com/categories/</link>
     <description>Recent content in Categories on Magpie Programming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -15,7 +15,7 @@
     <webMaster>magpieprogramming@gmail.com (Mr Magpie)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
     
-        <atom:link href="https://chaza150.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://magpieprogramming.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     

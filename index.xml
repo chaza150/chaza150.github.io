@@ -7,7 +7,7 @@
   xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>Magpie Programming</title>
-    <link>https://chaza150.github.io/</link>
+    <link>https://magpieprogramming.com/</link>
     <description>Recent content on Magpie Programming</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -16,7 +16,7 @@
     <copyright>©{year}, All Rights Reserved</copyright>
     <lastBuildDate>Fri, 05 Jun 2020 12:19:23 +0100</lastBuildDate>
     
-        <atom:link href="https://chaza150.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://magpieprogramming.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     
@@ -45,11 +45,11 @@
       
       <item>
         <title>Test Post</title>
-        <link>https://chaza150.github.io/posts/a/</link>
+        <link>https://magpieprogramming.com/posts/a/</link>
         <pubDate>Fri, 05 Jun 2020 12:19:23 +0100</pubDate>
         <author>magpieprogramming@gmail.com (Mr Magpie)</author>
         <atom:modified>Fri, 05 Jun 2020 12:19:23 +0100</atom:modified>
-        <guid>https://chaza150.github.io/posts/a/</guid>
+        <guid>https://magpieprogramming.com/posts/a/</guid>
         <description>New Post 1  a := 3   Next Heading javago1  System.out.println(&amp;#34;Hello World!&amp;#34;);    1  fmt.Println(&amp;#34;Hello World&amp;#34;)    &#39;use strict&#39;;var containerId = JSON.parse(&#34;\&#34;3a13d6d2cc5175cc\&#34;&#34;);var containerElem = document.getElementById(containerId);var codetabLinks = null;var codetabContents = null;var ids = [];if (containerElem) {codetabLinks = containerElem.querySelectorAll(&#39;.codetab__link&#39;);codetabContents = containerElem.querySelectorAll(&#39;.codetab__content&#39;);}for (var i = 0; i 0) {codetabContents[0].</description>
         
         <dc:creator>Mr Magpie</dc:creator>
