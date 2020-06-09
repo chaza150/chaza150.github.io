@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Go on Magpie Programming</title>
+    <link>https://magpieprogramming.com/tags/go/</link>
+    <description>Recent content in Go on Magpie Programming</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>magpieprogramming@gmail.com (Mr Magpie)</managingEditor>
+    <webMaster>magpieprogramming@gmail.com (Mr Magpie)</webMaster>
+    <copyright>©{year}, All Rights Reserved</copyright>
+    <lastBuildDate>Tue, 09 Jun 2020 10:05:49 +0100</lastBuildDate>
+    
+        <atom:link href="https://magpieprogramming.com/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    
+
+      
+      <item>
+        <title>Getting Set Up With Go</title>
+        <link>https://magpieprogramming.com/posts/go-setup/</link>
+        <pubDate>Tue, 09 Jun 2020 10:05:49 +0100</pubDate>
+        <author>magpieprogramming@gmail.com (Mr Magpie)</author>
+        <atom:modified>Tue, 09 Jun 2020 10:05:49 +0100</atom:modified>
+        <guid>https://magpieprogramming.com/posts/go-setup/</guid>
+        <description>So, you&amp;rsquo;ve decided to begin learning Go, but you&amp;rsquo;re not too sure how to get started. Maybe you&amp;rsquo;ve gone through the &amp;ldquo;A Tour of Go&amp;rdquo; but now you want to set up your own environment for you own machine. Well, in the sections below you can find out how to do just that and get ready to start programming your own projects.
+The following is applicable to Windows installations, but similar instructions may be found in the official Go Docs for other operating systems.</description>
+        
+        <dc:creator>Mr Magpie</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Go</category>
+            
+          
+            
+              <category>Setup</category>
+            
+          
+            
+              <category>Beginner</category>
+            
+          
+        
+        
+          
+            
+              <category>Go</category>
+            
+          
+            
+              <category>Beginner</category>
+            
+          
+        
+        
+          
+            
+              <category>Go: Beginner</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

@@ -37,26 +37,37 @@ The following is applicable to Windows installations, but similar instructions m
         
         
         
+          
+            
+              <category>Go</category>
+            
+          
+            
+              <category>Setup</category>
+            
+          
+            
+              <category>Beginner</category>
+            
+          
         
         
-      </item>
-      
-      <item>
-        <title>Test Post</title>
-        <link>https://magpieprogramming.com/posts/a/</link>
-        <pubDate>Fri, 05 Jun 2020 12:19:23 +0100</pubDate>
-        <author>magpieprogramming@gmail.com (Mr Magpie)</author>
-        <atom:modified>Fri, 05 Jun 2020 12:19:23 +0100</atom:modified>
-        <guid>https://magpieprogramming.com/posts/a/</guid>
-        <description>New Post 1  a := 3   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus maximus iaculis sollicitudin. Proin commodo sed magna eu dapibus. Ut ut risus ligula. Aliquam sed rhoncus elit, iaculis sollicitudin sem. Donec nisl lectus, vestibulum in libero a, viverra auctor turpis. Donec non aliquet diam. Nullam quis nulla eu turpis accumsan posuere. Integer posuere molestie ex. Etiam sodales scelerisque tincidunt.
-Mauris placerat, lectus at fringilla pulvinar, ex ante commodo orci, fermentum fermentum enim sem at velit.</description>
-        
-        <dc:creator>Mr Magpie</dc:creator>
+          
+            
+              <category>Go</category>
+            
+          
+            
+              <category>Beginner</category>
+            
+          
         
         
-        
-        
-        
+          
+            
+              <category>Go: Beginner</category>
+            
+          
         
       </item>
       

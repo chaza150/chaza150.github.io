@@ -3,7 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://magpieprogramming.com/tags/beginner/</loc>
+    <lastmod>2020-06-09T10:05:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://magpieprogramming.com/categories/beginner/</loc>
+    <lastmod>2020-06-09T10:05:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://magpieprogramming.com/categories/</loc>
+    <lastmod>2020-06-09T10:05:49+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://magpieprogramming.com/posts/go-setup/</loc>
+    <lastmod>2020-06-09T10:05:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://magpieprogramming.com/tags/go/</loc>
+    <lastmod>2020-06-09T10:05:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://magpieprogramming.com/categories/go/</loc>
+    <lastmod>2020-06-09T10:05:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://magpieprogramming.com/series/go-beginner/</loc>
     <lastmod>2020-06-09T10:05:49+01:00</lastmod>
   </url>
   
@@ -18,25 +48,23 @@
   </url>
   
   <url>
-    <loc>https://magpieprogramming.com/about/</loc>
-    <lastmod>2020-06-05T12:48:25+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://magpieprogramming.com/posts/a/</loc>
-    <lastmod>2020-06-05T12:19:23+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://magpieprogramming.com/categories/</loc>
-  </url>
-  
-  <url>
     <loc>https://magpieprogramming.com/series/</loc>
+    <lastmod>2020-06-09T10:05:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://magpieprogramming.com/tags/setup/</loc>
+    <lastmod>2020-06-09T10:05:49+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://magpieprogramming.com/tags/</loc>
+    <lastmod>2020-06-09T10:05:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://magpieprogramming.com/about/</loc>
+    <lastmod>2020-06-05T12:48:25+01:00</lastmod>
   </url>
   
 </urlset>
