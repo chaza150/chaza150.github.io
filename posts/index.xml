@@ -14,7 +14,7 @@
     <managingEditor>magpieprogramming@gmail.com (Mr Magpie)</managingEditor>
     <webMaster>magpieprogramming@gmail.com (Mr Magpie)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 09 Jun 2020 10:05:49 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2020 14:57:12 +0100</lastBuildDate>
     
         <atom:link href="https://magpieprogramming.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -23,12 +23,57 @@
 
       
       <item>
+        <title>Go: Beginner 1 - Hello World</title>
+        <link>https://magpieprogramming.com/posts/go/beginner/go.-1-hello-world/</link>
+        <pubDate>Tue, 09 Jun 2020 14:57:12 +0100</pubDate>
+        <author>magpieprogramming@gmail.com (Mr Magpie)</author>
+        <atom:modified>Tue, 09 Jun 2020 14:57:12 +0100</atom:modified>
+        <guid>https://magpieprogramming.com/posts/go/beginner/go.-1-hello-world/</guid>
+        <description>In order to complete this tutorial, it is expected that you have a working Go programming environment. If you are still needing to set this up, you can follow along with our tutorial here if you are using Windows or using the official Go Docs for other operating systems.
+Our First Program In this tutorial, we&amp;rsquo;re going to be writing our very first Go program and understanding what exactly it all means.</description>
+        
+        <dc:creator>Mr Magpie</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Go</category>
+            
+          
+            
+              <category>Beginner</category>
+            
+          
+        
+        
+          
+            
+              <category>Go</category>
+            
+          
+            
+              <category>Beginner</category>
+            
+          
+        
+        
+          
+            
+              <category>Go: Beginner</category>
+            
+          
+        
+      </item>
+      
+      <item>
         <title>Getting Set Up With Go</title>
-        <link>https://magpieprogramming.com/posts/go-setup/</link>
+        <link>https://magpieprogramming.com/posts/go/beginner/go-setup/</link>
         <pubDate>Tue, 09 Jun 2020 10:05:49 +0100</pubDate>
         <author>magpieprogramming@gmail.com (Mr Magpie)</author>
         <atom:modified>Tue, 09 Jun 2020 10:05:49 +0100</atom:modified>
-        <guid>https://magpieprogramming.com/posts/go-setup/</guid>
+        <guid>https://magpieprogramming.com/posts/go/beginner/go-setup/</guid>
         <description>So, you&amp;rsquo;ve decided to begin learning Go, but you&amp;rsquo;re not too sure how to get started. Maybe you&amp;rsquo;ve gone through the &amp;ldquo;A Tour of Go&amp;rdquo; but now you want to set up your own environment for you own machine. Well, in the sections below you can find out how to do just that and get ready to start programming your own projects.
 The following is applicable to Windows installations, but similar instructions may be found in the official Go Docs for other operating systems.</description>
         
