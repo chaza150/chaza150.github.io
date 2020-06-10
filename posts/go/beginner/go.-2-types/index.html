@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Go: Beginner 1 - Hello World – Magpie Programming</title>
+    <title>Go: Beginner 2 - Types – Magpie Programming</title>
     
 
 
@@ -551,7 +551,7 @@
 
   
     
-    var permalink = JSON.parse("\"https://magpieprogramming.com/posts/go/beginner/go.-1-hello-world/\"");
+    var permalink = JSON.parse("\"https://magpieprogramming.com/posts/go/beginner/go.-2-types/\"");
     var searchResults = null;
     var searchMenu = null;
     var searchText = null;
@@ -1217,23 +1217,23 @@
 
 
     
-<meta name="description" content="Programming and understanding your first Go program" />
+<meta name="description" content="Getting acquainted with Go&#39;s basic data types" />
 
 
 <meta name="keywords" content="Go,Beginner">
 
-<meta name="created" content="2020-06-09T14:57:12&#43;0100">
-<meta name="modified" content="2020-06-09T14:57:12&#43;0100">
-<meta property="article:published_time" content="2020-06-09T14:57:12&#43;0100">
+<meta name="created" content="2020-06-10T09:31:08&#43;0100">
+<meta name="modified" content="2020-06-10T09:31:08&#43;0100">
+<meta property="article:published_time" content="2020-06-10T09:31:08&#43;0100">
 
 <meta name="author" content="Mr Magpie">
 
 
 <meta property="og:site_name" content="Magpie Programming">
-<meta property="og:title" content="Go: Beginner 1 - Hello World">
-<meta property="og:url" content="https://magpieprogramming.com/posts/go/beginner/go.-1-hello-world/">
+<meta property="og:title" content="Go: Beginner 2 - Types">
+<meta property="og:url" content="https://magpieprogramming.com/posts/go/beginner/go.-2-types/">
 <meta property="og:type" content="article">
-<meta property="og:description" content="Programming and understanding your first Go program">
+<meta property="og:description" content="Getting acquainted with Go&#39;s basic data types">
 
 <meta name="generator" content="Hugo 0.72.0" />
 <meta name="msapplication-TileColor" content="#fff">
@@ -1244,7 +1244,7 @@
 
 <meta name="apple-mobile-web-app-status-bar-style" content="#fff">
 
-<link rel="canonical" href="https://magpieprogramming.com/posts/go/beginner/go.-1-hello-world/">
+<link rel="canonical" href="https://magpieprogramming.com/posts/go/beginner/go.-2-types/">
 
 <link rel="manifest" href="/manifest.json">
 
@@ -1270,11 +1270,11 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "Go: Beginner 1 - Hello World",
-    "datePublished": "2020-06-09T14:57:12+01:00",
-    "dateModified": "2020-06-09T14:57:12+01:00",
-    "url" : "https://magpieprogramming.com/posts/go/beginner/go.-1-hello-world/",
-    "description": "Programming and understanding your first Go program",
+    "headline": "Go: Beginner 2 - Types",
+    "datePublished": "2020-06-10T09:31:08+01:00",
+    "dateModified": "2020-06-10T09:31:08+01:00",
+    "url" : "https://magpieprogramming.com/posts/go/beginner/go.-2-types/",
+    "description": "Getting acquainted with Go's basic data types",
     "keywords": ["Go","Beginner"],
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -1526,7 +1526,7 @@
   
   <li  class="is-active" >
     
-      <span>Go: Beginner 1 - Hello World</span>
+      <span>Go: Beginner 2 - Types</span>
     
   </li>
   
@@ -1538,13 +1538,13 @@
   <div class="single ">
     <div class="single__nojs">This page looks best with JavaScript enabled</div>
     <script>document.querySelector('.single').classList.remove('hide'); document.querySelector('.single__nojs').classList.add('hide');</script>
-    <h2 class="single__title" data-ani="true">Go: Beginner 1 - Hello World</h2>
+    <h2 class="single__title" data-ani="true">Go: Beginner 2 - Types</h2>
     <div class="single__meta">
       
 <div class="single__infos">
-  <time class="single__info" title="Written At">📅&nbsp;Jun 9, 2020 </time>
+  <time class="single__info" title="Written At">📅&nbsp;Jun 10, 2020 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;4&nbsp;min read </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;5&nbsp;min read </span>
   
   <span class="single__info">
     
@@ -1574,23 +1574,28 @@
   <div class="expand__content expand__content--toc">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#our-first-program">Our First Program</a>
+    <li><a href="#basic-types">Basic Types</a>
       <ul>
-        <li><a href="#package-main">package main</a></li>
-        <li><a href="#import-fmt">import &ldquo;fmt&rdquo;</a></li>
-        <li><a href="#func-main-">func main() {</a></li>
-        <li><a href="#fmtprintlnhello-go">fmt.Println(&ldquo;Hello, Go&rdquo;)</a></li>
+        <li><a href="#integers">Integers</a></li>
+        <li><a href="#floats">Floats</a></li>
+        <li><a href="#complexes">Complexes</a></li>
+        <li><a href="#booleans">Booleans</a></li>
+        <li><a href="#strings">Strings</a></li>
       </ul>
     </li>
-    <li><a href="#the-result">The Result</a></li>
+    <li><a href="#what-next">What Next?</a></li>
   </ul>
 </nav>
   </div>
 </div>
 
-      <p>In order to complete this tutorial, it is expected that you have a working Go programming environment. If you are still needing to set this up, you can follow along with our tutorial <a href="https://magpieprogramming.com/posts/go/beginner/go-setup/">here</a> if you are using Windows or using the official <a href="https://golang.org/doc/install">Go Docs</a> for other operating systems.</p>
-<h2 id="our-first-program">Our First Program</h2>
-<p>In this tutorial, we&rsquo;re going to be writing our very first Go program and understanding what exactly it all means. For those coming directly from our setup article, we&rsquo;ll be working with the run.go file created there. Regardless of where you might have come from, let&rsquo;s take a quick look at all the code in this file and then we can break it down:</p>
+      <p>Following on from our previous <a href="https://magpieprogramming.com/posts/go/beginner/go.-1-hello-world/">&ldquo;Hello World&rdquo; tutorial</a>, the next order of business to addres is types. Types are exactly &lsquo;what it says on the tin&rsquo;. Types are what the data we give to the program should be seen as, whether that be a number, text or a multitude of other possibilities.</p>
+<p>Officially, Go has 4 main types of type&hellip; Sounds confusing, but for now, we only need to know about one of these: the basic type. As they self-proclaim, these types are, well, basic and will make up over 80% of all the types you use. Let&rsquo;s have a look at all of these &lsquo;basic&rsquo; types and see if we can unpack each in turn.</p>
+<h2 id="basic-types">Basic Types</h2>
+<p>To be precise, Go has 19 basic types baked into the language, but many of these are variations of only 5 general types. These are: Integers, Floats, Complexes, Booleans and Strings. And to help things further, Integers, Floats &amp; Complexes are all just numbers of different sorts.</p>
+<h3 id="integers">Integers</h3>
+<p>Integers are all the whole numbers, as you would count on a number line or when counting discrete objects (think 1, 2 &amp; 42). These are one of the simplest data types in Go and one of the most used types as well. Integers are often defined using the keywork &ldquo;int&rdquo;, which we will touch on later.</p>
+<p>For now we can have a look at the type by using the following short code snippet in our &lsquo;run.go&rsquo; file:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -1600,41 +1605,110 @@
 </span><span class="lnt">5
 </span><span class="lnt">6
 </span><span class="lnt">7
+</span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-Go:run.go" data-lang="Go:run.go"><span class="kn">package</span> <span class="nx">main</span>
 
 <span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
+<span class="kn">import</span> <span class="s">&#34;reflect&#34;</span>
 
 <span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
-	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Hello, Go&#34;</span><span class="p">)</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">reflect</span><span class="p">.</span><span class="nf">TypeOf</span><span class="p">(</span><span class="mi">42</span><span class="p">))</span>
 <span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
-</div><h3 id="package-main">package main</h3>
-<p>The first line in our program is not particularly groundbreaking, but it is an important point nevertheless. Go programs are broken into what it calls &ldquo;packages&rdquo;. These packages tell the compiler where to look for various things including data structures, other packages and, in our case, functions. this first line assigns our new run.go file as part of the package named &ldquo;main&rdquo;. This package is rather special as files in this package are where Go will always look to start off our program.</p>
-<h3 id="import-fmt">import &ldquo;fmt&rdquo;</h3>
-<p>Having now spoken about packages, let&rsquo;s start using them; the import statement is how we tell our program that we are going to be using something from a specific package. In this case we are using the very useful and common package<code>fmt</code>which deals with a lot of Go&rsquo;s reading and writing. It&rsquo;s worth noting that &ldquo;fmt&rdquo; is an example of an in-built package that comes pre-installed with Go and so can be looked up in the docs at <a href="https://golang.org/pkg/fmt/">https://golang.org/pkg/fmt/</a>. In fact, you can see all the available Go packages at <a href="https://golang.org/pkg/">https://golang.org/pkg/</a>.</p>
-<h3 id="func-main-">func main() {</h3>
-<p>This line is an example of one of the most important concepts in programming, functions. Functions in programming typically take some number of inputs (sometimes zero) and does something, gives some output or both. Specifically, we are defining a new function named &ldquo;main&rdquo;. Those of you coming from other programming languages may realise some syntactic differences in defining functions in Go. In particular, you will realise that all functions must begin with a &lsquo;{&rsquo; symbol and end in a &lsquo;}&rsquo; (as there is on the last line).</p>
-<p>The main function is particularly important because, as in many other languages, when paired with a file in the &ldquo;main&rdquo; package, this is the default starting point when we go to run our code. In other words, this is what will run in your code. Unless you call other functions, with the exception of few other functions, this is all your program will do.</p>
-<h3 id="fmtprintlnhello-go">fmt.Println(&ldquo;Hello, Go&rdquo;)</h3>
-<p>So, what do we want our program to do? Well, as we have this juicy &ldquo;fmt&rdquo; package loaded, let&rsquo;s make use of it. To start with, we&rsquo;ll just print a nice message saying &ldquo;Hello, Go&rdquo;.</p>
-<p>We can use functions in the fmt package, by appending a<code>.</code>followed by the name of the function we are calling. In our example, we&rsquo;re calling the &ldquo;Println&rdquo; function that, according to the <a href="https://golang.org/pkg/fmt/">docs</a>, will write any text we give it to the terminal and start a new line for us. Great!</p>
-<div class="box">To add extra difficulty to the syntactic differences for those coming from other languages, it is very important that you follow capitalisation precisely in Go. If you use the elusive &ldquo;println&rdquo; function, you will quickly find that this is &lsquo;undefined&rsquo; and &lsquo;unexported&rsquo;. We&rsquo;ll explain this means in more detail later, but in short, whenever you want to use something not immediately in the package you&rsquo;re working on, we have to start it with a capital letter. <code>Println</code> not <code>println</code>!</div>
-<h2 id="the-result">The Result</h2>
-<p>There we have it, our first program. Make sure you save that file and then we can run it using the methods you have learned previously (For those who followed the setup post, you just need to double click your build.bat).</p>
-<p>What do we see? Well, with any luck you&rsquo;re seeing our short but sweet message of &ldquo;Hello, Go&rdquo; appearing on your terminal, like so:<br />
+</div><p>Running that file should demonstrate that 42 is an example of the &lsquo;int&rsquo; type and this what you should see printed to the terminal. Going back to these elusive 19 basic types, there are, in fact 13 different types of int, many of which are very underused. These are:</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>int8</td>
+<td>Signed 8-bit Integer</td>
+</tr>
+<tr>
+<td>int16</td>
+<td>Signed 16-bit Integer</td>
+</tr>
+<tr>
+<td>int32</td>
+<td>Signed 32-bit Integer</td>
+</tr>
+<tr>
+<td>int64</td>
+<td>Signed 64-bit Integer</td>
+</tr>
+<tr>
+<td>uint8</td>
+<td>Unsigned 8-bit Integer</td>
+</tr>
+<tr>
+<td>uint16</td>
+<td>Unsigned 16-bit Integer</td>
+</tr>
+<tr>
+<td>uint32</td>
+<td>Unsigned 32-bit Integer</td>
+</tr>
+<tr>
+<td>uint64</td>
+<td>Unsigned 64-bit Integer</td>
+</tr>
+<tr>
+<td>int</td>
+<td>32 or 64-bit Signed Integer (OS Dependent)</td>
+</tr>
+<tr>
+<td>uint</td>
+<td>32 or 64-bit Unsigned Integer (OS Dependent)</td>
+</tr>
+<tr>
+<td>rune</td>
+<td>int32 Unicode Representation</td>
+</tr>
+<tr>
+<td>byte</td>
+<td>~int8</td>
+</tr>
+<tr>
+<td>uintptr</td>
+<td>uint representing a pointer value</td>
+</tr>
+</tbody>
+</table>
+<h3 id="floats">Floats</h3>
+<p>Floats are all decimal numbers and are very useful when we are doing more complicated maths. These fill the void where Integers cannot represent decimals, but are inherently less precise than Integers when using them as whole numbers. For the reasoning behind this, Tom Scott gives a great explanation in <a href="https://www.youtube.com/watch?v=PZRI1IfStY0">this Computerphile video</a>.</p>
+<p>So, getting back to our code, we can replace our &lsquo;Println&rsquo; line with the following:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Go:run.go" data-lang="Go:run.go"><span class="p">&lt;</span><span class="o">...</span><span class="p">&gt;</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">reflect</span><span class="p">.</span><span class="nf">TypeOf</span><span class="p">(</span><span class="mf">9.81</span><span class="p">))</span>
+<span class="p">&lt;</span><span class="o">...</span><span class="p">&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Now, similar to the table of Integer types above, we won&rsquo;t actually seeing &lsquo;float&rsquo;. Instead, we most likely see &lsquo;float64&rsquo;. This is because Go does not have a general &lsquo;float&rsquo; type, but instead has &lsquo;float64&rsquo; and &lsquo;float128&rsquo;, which are simply 64- and 128-bit representations of these decimal numbers.</p>
+<h3 id="complexes">Complexes</h3>
+<p>Complexes are where things get a bit more maths-heavy for those who are not familiar with complex number notation. As a brief introduction, in standard maths, we are told that there is no solution to the equation:</p>
 
 
 <figure >
   
-    <img data-src="/images/posts/Go/Beginner/Go%201/result.png" alt="image alt" data-caption="Our Result" src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='700px' height='' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload" style="width:700px;height:;"/>
+    <img data-src="https://latex.codecogs.com/gif.latex?%5cdpi%7b150%7d&amp;space;%5cbg_black&amp;space;x%5e%7b2%7d&amp;space;=&amp;space;-1" alt="x^2 = -1" data-caption=" " src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='' height='' viewBox='0 0 24 24'%3E%3Cpath fill='none' d='M0 0h24v24H0V0z'/%3E%3Cpath fill='%23aaa' d='M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-1 16H6c-.55 0-1-.45-1-1V6c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v12c0 .55-.45 1-1 1zm-4.44-6.19l-2.35 3.02-1.56-1.88c-.2-.25-.58-.24-.78.01l-1.74 2.23c-.26.33-.02.81.39.81h8.98c.41 0 .65-.47.4-.8l-2.55-3.39c-.19-.26-.59-.26-.79 0z'/%3E%3C/svg%3E" class="lazyload" style="width:;height:;"/>
     
   
-    <figcaption style="text-align: center;">
+    <figcaption style="text-align: left;">
     
-    Our Result
+     
     
       
       
@@ -1642,10 +1716,56 @@
   </figcaption>
   
 </figure>
-</p>
-<p>There we go! Hopefully, at this point, you are confident that you understand what we have just done and why we have done it. This is the first step when anyone is learning a programming language and after a few more articles you&rsquo;ll be able to look back and see just how far you&rsquo;ve come so quickly.</p>
-<p>Next time we&rsquo;ll be introducing the basic data types Go has to offer and all the different forms they come in.</p>
-<p>Continue to <a href="https://magpieprogramming.com/posts/go/beginner/go.-2-types/">Go: Beginner 2 - Types</a></p>
+
+<p>But, in fact, we can make a solution and create a value such that x = <em>i</em>. This is an example of an &lsquo;imaginary&rsquo; number and when combined with our &lsquo;real&rsquo; numbers, we obtain a collective complex number. These are numbers like (2 + 3<em>i</em>) and (-9<em>i</em>). These types can be seen if you replace our &lsquo;Println&rsquo; statement with:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Go:run.go" data-lang="Go:run.go"><span class="p">&lt;</span><span class="o">...</span><span class="p">&gt;</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">reflect</span><span class="p">.</span><span class="nf">TypeOf</span><span class="p">(</span><span class="mi">2</span> <span class="o">+</span> <span class="m">3i</span><span class="p">))</span>
+<span class="p">&lt;</span><span class="o">...</span><span class="p">&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>From the result, like with our float example, you can see that there is no general &lsquo;complex&rsquo; type, but instead there are &lsquo;complex64&rsquo; and &lsquo;complex128&rsquo; types, with 64 and 128 bits respectively. Unless you are planning on working with some interesting maths or coming up with more elegant solutions to problems, it is unlikely you&rsquo;ll need to work with Complex types on a daily (or even weekly) basis.</p>
+<h3 id="booleans">Booleans</h3>
+<p>Booleans are by far the most simple data types in nearly all programming languages: True or False. The simplest and, quite elegantly, the most useful type you will use when programming in Go and in general, named by the keyword &lsquo;bool&rsquo; in Go. There are, as above, only two possible values for a bool: &lsquo;true&rsquo; or &lsquo;false&rsquo;, and we can quickly test those:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Go:run.go" data-lang="Go:run.go"><span class="p">&lt;</span><span class="o">...</span><span class="p">&gt;</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">reflect</span><span class="p">.</span><span class="nf">TypeOf</span><span class="p">(</span><span class="kc">true</span><span class="p">))</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">reflect</span><span class="p">.</span><span class="nf">TypeOf</span><span class="p">(</span><span class="kc">false</span><span class="p">))</span>
+<span class="p">&lt;</span><span class="o">...</span><span class="p">&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Two bools. Nothing special or any confusing numbers here, just plain &lsquo;bool&rsquo; and you&rsquo;ll be glad to hear that&rsquo;s all there is.</p>
+<h3 id="strings">Strings</h3>
+<p>Strings are, for all intents and purposes in Go, text. Whether that be a block of text spanning the entire works of Shakespeare or a single word, it is always encapsulated by the Go&rsquo;s &lsquo;string&rsquo; type. And as in many other languages, &lsquo;string&rsquo; type data is always surrounded by speech marks (&quot;&quot;). This just tells Go where to expect all the text you are giving it. Let&rsquo;s try this out:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Go:run.go" data-lang="Go:run.go"><span class="p">&lt;</span><span class="o">...</span><span class="p">&gt;</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">reflect</span><span class="p">.</span><span class="nf">TypeOf</span><span class="p">(</span><span class="s">&#34;Steve walks warily down the street&#34;</span><span class="p">))</span>
+<span class="p">&lt;</span><span class="o">...</span><span class="p">&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>As with &lsquo;bool&rsquo; types, you&rsquo;ll notice it&rsquo;s just a &lsquo;string&rsquo; type. Nothing more, nothing less. Strings are strings no matter their length or the words inside them.</p>
+<h2 id="what-next">What Next?</h2>
+<p>That&rsquo;s your lot of basic types in Go and almost all of the types you&rsquo;ll be using on a minute-by-minute basis. There&rsquo;s plenty more to learn about how these different types will act around each other and by themselves, but for now, we know how to add this data to our program. All we need is to find out how to use them in some useful way.</p>
+<p>To do this, next time, we&rsquo;ll be introducing variables which are how we store all of this data and a way we can change and use it &lsquo;on-the-fly&rsquo;.</p>
 
     </article>
     
@@ -1707,19 +1827,19 @@
     
     
       
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmagpieprogramming.com%2fposts%2fgo%2fbeginner%2fgo.-1-hello-world%2f" title="Facebook" aria-label="Facebook Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmagpieprogramming.com%2fposts%2fgo%2fbeginner%2fgo.-2-types%2f" title="Facebook" aria-label="Facebook Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
           <svg data-name="facebook" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/></svg>
         </a>
       
     
       
-        <a href="https://www.reddit.com/submit?url=https%3a%2f%2fmagpieprogramming.com%2fposts%2fgo%2fbeginner%2fgo.-1-hello-world%2f&amp;title=Go%3a%20Beginner%201%20-%20Hello%20World" target="_blank" rel="noreferer" title="Reddit" aria-label="Reddit Share Button" onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(document.URL) + '&amp;title=' +  encodeURIComponent(document.title)); return false;" class="donation__item" data-type="share">
+        <a href="https://www.reddit.com/submit?url=https%3a%2f%2fmagpieprogramming.com%2fposts%2fgo%2fbeginner%2fgo.-2-types%2f&amp;title=Go%3a%20Beginner%202%20-%20Types" target="_blank" rel="noreferer" title="Reddit" aria-label="Reddit Share Button" onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(document.URL) + '&amp;title=' +  encodeURIComponent(document.title)); return false;" class="donation__item" data-type="share">
           <svg data-name="reddit" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m21.325 9.308c-.758 0-1.425.319-1.916.816-1.805-1.268-4.239-2.084-6.936-2.171l1.401-6.406 4.461 1.016c0 1.108.89 2.013 1.982 2.013 1.113 0 2.008-.929 2.008-2.038s-.889-2.038-2.007-2.038c-.779 0-1.451.477-1.786 1.129l-4.927-1.108c-.248-.067-.491.113-.557.365l-1.538 7.062c-2.676.113-5.084.928-6.895 2.197-.491-.518-1.184-.837-1.942-.837-2.812 0-3.733 3.829-1.158 5.138-.091.405-.132.837-.132 1.268 0 4.301 4.775 7.786 10.638 7.786 5.888 0 10.663-3.485 10.663-7.786 0-.431-.045-.883-.156-1.289 2.523-1.314 1.594-5.115-1.203-5.117zm-15.724 5.41c0-1.129.89-2.038 2.008-2.038 1.092 0 1.983.903 1.983 2.038 0 1.109-.89 2.013-1.983 2.013-1.113.005-2.008-.904-2.008-2.013zm10.839 4.798c-1.841 1.868-7.036 1.868-8.878 0-.203-.18-.203-.498 0-.703.177-.18.491-.18.668 0 1.406 1.463 6.07 1.488 7.537 0 .177-.18.491-.18.668 0 .207.206.207.524.005.703zm-.041-2.781c-1.092 0-1.982-.903-1.982-2.011 0-1.129.89-2.038 1.982-2.038 1.113 0 2.008.903 2.008 2.038-.005 1.103-.895 2.011-2.008 2.011z"/></svg>
         </a>
       
     
       
-        <a href="https://twitter.com/intent/tweet?text=Go%3a%20Beginner%201%20-%20Hello%20World&url=https%3a%2f%2fmagpieprogramming.com%2fposts%2fgo%2fbeginner%2fgo.-1-hello-world%2f&hashtags=Go%2cBeginner&via=" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
+        <a href="https://twitter.com/intent/tweet?text=Go%3a%20Beginner%202%20-%20Types&url=https%3a%2f%2fmagpieprogramming.com%2fposts%2fgo%2fbeginner%2fgo.-2-types%2f&hashtags=Go%2cBeginner&via=" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
           <svg data-name="twitter" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z"/></svg>
         </a>
       
@@ -1863,6 +1983,10 @@
     <ul class="related-ul">
         
         <li>
+          <a href="/posts/go/beginner/go.-1-hello-world/" class="related__link">Go: Beginner 1 - Hello World</a>
+        </li>
+        
+        <li>
           <a href="/posts/go/beginner/go-setup/" class="related__link">Getting Set Up With Go</a>
         </li>
         
@@ -1873,21 +1997,14 @@
 <nav class="pagination-single">
   
     
-      <a href="https://magpieprogramming.com/posts/go/beginner/go-setup/" class="pagination-single__left">
+      <a href="https://magpieprogramming.com/posts/go/beginner/go.-1-hello-world/" class="pagination-single__left">
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
         </div>
-        <div class="pagination-single__left-title">Getting Set Up With Go</div>      
+        <div class="pagination-single__left-title">Go: Beginner 1 - Hello World</div>      
       </a>
     
     <div class="grow"></div>
-    
-      <a href="https://magpieprogramming.com/posts/go/beginner/go.-2-types/" class="pagination-single__right">      
-        <div class="pagination-single__right-title">Go: Beginner 2 - Types</div>
-        <div class="pagination-single__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
-        </div>
-      </a>
     
   
 </nav>
@@ -2245,15 +2362,16 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="toc " data-dir="ltr" data-folding="false" data-ani="true">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#our-first-program">Our First Program</a>
+    <li><a href="#basic-types">Basic Types</a>
       <ul>
-        <li><a href="#package-main">package main</a></li>
-        <li><a href="#import-fmt">import &ldquo;fmt&rdquo;</a></li>
-        <li><a href="#func-main-">func main() {</a></li>
-        <li><a href="#fmtprintlnhello-go">fmt.Println(&ldquo;Hello, Go&rdquo;)</a></li>
+        <li><a href="#integers">Integers</a></li>
+        <li><a href="#floats">Floats</a></li>
+        <li><a href="#complexes">Complexes</a></li>
+        <li><a href="#booleans">Booleans</a></li>
+        <li><a href="#strings">Strings</a></li>
       </ul>
     </li>
-    <li><a href="#the-result">The Result</a></li>
+    <li><a href="#what-next">What Next?</a></li>
   </ul>
 </nav>
   </div>

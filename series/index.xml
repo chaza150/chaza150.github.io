@@ -14,7 +14,7 @@
     <managingEditor>magpieprogramming@gmail.com (Mr Magpie)</managingEditor>
     <webMaster>magpieprogramming@gmail.com (Mr Magpie)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Tue, 09 Jun 2020 14:57:12 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2020 09:31:08 +0100</lastBuildDate>
     
         <atom:link href="https://magpieprogramming.com/series/index.xml" rel="self" type="application/rss+xml" />
     
@@ -25,7 +25,7 @@
       <item>
         <title>Go: Beginner</title>
         <link>https://magpieprogramming.com/series/go-beginner/</link>
-        <pubDate>Tue, 09 Jun 2020 14:57:12 +0100</pubDate>
+        <pubDate>Wed, 10 Jun 2020 09:31:08 +0100</pubDate>
         <author>magpieprogramming@gmail.com (Mr Magpie)</author>
         
         <guid>https://magpieprogramming.com/series/go-beginner/</guid>
