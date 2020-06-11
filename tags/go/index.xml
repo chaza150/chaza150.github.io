@@ -14,13 +14,58 @@
     <managingEditor>magpieprogramming@gmail.com (Mr Magpie)</managingEditor>
     <webMaster>magpieprogramming@gmail.com (Mr Magpie)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 11 Jun 2020 10:19:59 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jun 2020 14:12:19 +0100</lastBuildDate>
     
         <atom:link href="https://magpieprogramming.com/tags/go/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Go: Beginner 4.1 - Numbers</title>
+        <link>https://magpieprogramming.com/posts/go/beginner/go.-4.1-numbers/</link>
+        <pubDate>Thu, 11 Jun 2020 14:12:19 +0100</pubDate>
+        <author>magpieprogramming@gmail.com (Mr Magpie)</author>
+        <atom:modified>Thu, 11 Jun 2020 14:12:19 +0100</atom:modified>
+        <guid>https://magpieprogramming.com/posts/go/beginner/go.-4.1-numbers/</guid>
+        <description>Welcome to the short micro-series introducing the different operators arising when using Go&amp;rsquo;s 5 main types. The first set of types that we&amp;rsquo;ll be looking at is the numeric types: Integers, Floats and Complexes. Typically used for either counting or maths, numeric types act in ways that you will be very familiar with from any basic maths class, in addition to having some more programming-friendly features.
+Basic Arithmetic Operations We&amp;rsquo;ll be beginning this whistlestop tour with a list of the most common and familiar operators we use for numbers.</description>
+        
+        <dc:creator>Mr Magpie</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Go</category>
+            
+          
+            
+              <category>Beginner</category>
+            
+          
+        
+        
+          
+            
+              <category>Go</category>
+            
+          
+            
+              <category>Beginner</category>
+            
+          
+        
+        
+          
+            
+              <category>Go: Beginner</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Go: Beginner 3 - Variables</title>
