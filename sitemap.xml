@@ -4,56 +4,66 @@
   
   <url>
     <loc>https://magpieprogramming.com/tags/beginner/</loc>
-    <lastmod>2020-06-11T14:12:19+01:00</lastmod>
+    <lastmod>2020-06-12T10:59:08+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://magpieprogramming.com/categories/beginner/</loc>
-    <lastmod>2020-06-11T14:12:19+01:00</lastmod>
+    <lastmod>2020-06-12T10:59:08+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://magpieprogramming.com/categories/</loc>
-    <lastmod>2020-06-11T14:12:19+01:00</lastmod>
+    <lastmod>2020-06-12T10:59:08+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://magpieprogramming.com/tags/go/</loc>
-    <lastmod>2020-06-11T14:12:19+01:00</lastmod>
+    <lastmod>2020-06-12T10:59:08+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://magpieprogramming.com/categories/go/</loc>
-    <lastmod>2020-06-11T14:12:19+01:00</lastmod>
+    <lastmod>2020-06-12T10:59:08+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://magpieprogramming.com/series/go-beginner/</loc>
-    <lastmod>2020-06-11T14:12:19+01:00</lastmod>
+    <lastmod>2020-06-12T10:59:08+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://magpieprogramming.com/posts/go/beginner/go.-4.1-numbers/</loc>
-    <lastmod>2020-06-11T14:12:19+01:00</lastmod>
+    <loc>https://magpieprogramming.com/posts/go/beginner/go.-4.3-strings/</loc>
+    <lastmod>2020-06-12T10:59:08+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://magpieprogramming.com/</loc>
-    <lastmod>2020-06-11T14:12:19+01:00</lastmod>
+    <lastmod>2020-06-12T10:59:08+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://magpieprogramming.com/posts/</loc>
-    <lastmod>2020-06-11T14:12:19+01:00</lastmod>
+    <lastmod>2020-06-12T10:59:08+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://magpieprogramming.com/series/</loc>
-    <lastmod>2020-06-11T14:12:19+01:00</lastmod>
+    <lastmod>2020-06-12T10:59:08+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://magpieprogramming.com/tags/</loc>
+    <lastmod>2020-06-12T10:59:08+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://magpieprogramming.com/posts/go/beginner/go.-4.2-booleans/</loc>
+    <lastmod>2020-06-12T10:15:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://magpieprogramming.com/posts/go/beginner/go.-4.1-numbers/</loc>
     <lastmod>2020-06-11T14:12:19+01:00</lastmod>
   </url>
   

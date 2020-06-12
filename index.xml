@@ -14,7 +14,7 @@
     <managingEditor>magpieprogramming@gmail.com (Mr Magpie)</managingEditor>
     <webMaster>magpieprogramming@gmail.com (Mr Magpie)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 11 Jun 2020 14:12:19 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2020 10:59:08 +0100</lastBuildDate>
     
         <atom:link href="https://magpieprogramming.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -42,6 +42,96 @@
         
       
 
+      
+      <item>
+        <title>Go: Beginner 4.3 - Strings</title>
+        <link>https://magpieprogramming.com/posts/go/beginner/go.-4.3-strings/</link>
+        <pubDate>Fri, 12 Jun 2020 10:59:08 +0100</pubDate>
+        <author>magpieprogramming@gmail.com (Mr Magpie)</author>
+        <atom:modified>Fri, 12 Jun 2020 10:59:08 +0100</atom:modified>
+        <guid>https://magpieprogramming.com/posts/go/beginner/go.-4.3-strings/</guid>
+        <description>Strings are a very strange data type in nearly every language you will ever work with. Unlike most other types in Go, Strings are significantly less atomic and they are so named because they are a &amp;lsquo;string&amp;rsquo; of characters. On the plus-side, this means that Go only has a roughly two basic operations built-in for its &amp;lsquo;string&amp;rsquo; type. Everything else features in packaged functions.
+Length We fairly frequently need to get the length of a string of text, whether that be to make sure a user has given some input or ensuring that such an input is not too long, so this is one of the built-in operators Go affords us for Strings.</description>
+        
+        <dc:creator>Mr Magpie</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Go</category>
+            
+          
+            
+              <category>Beginner</category>
+            
+          
+        
+        
+          
+            
+              <category>Go</category>
+            
+          
+            
+              <category>Beginner</category>
+            
+          
+        
+        
+          
+            
+              <category>Go: Beginner</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Go: Beginner 4.2 - Booleans</title>
+        <link>https://magpieprogramming.com/posts/go/beginner/go.-4.2-booleans/</link>
+        <pubDate>Fri, 12 Jun 2020 10:15:23 +0100</pubDate>
+        <author>magpieprogramming@gmail.com (Mr Magpie)</author>
+        <atom:modified>Fri, 12 Jun 2020 10:15:23 +0100</atom:modified>
+        <guid>https://magpieprogramming.com/posts/go/beginner/go.-4.2-booleans/</guid>
+        <description>In this section of our micro-series on the common usage of different types, we&amp;rsquo;re going to be address that most fundamental of Go types, Booleans. Booleans are types with only two possible values: true and false. However, the way we get these values and the operators by which they can interact with each other is critical to control the flows of our programs.
+Comparison Operators The principal technique used to obtain &amp;lsquo;bool&amp;rsquo; values is through other types and comparing their values against each other.</description>
+        
+        <dc:creator>Mr Magpie</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Go</category>
+            
+          
+            
+              <category>Beginner</category>
+            
+          
+        
+        
+          
+            
+              <category>Go</category>
+            
+          
+            
+              <category>Beginner</category>
+            
+          
+        
+        
+          
+            
+              <category>Go: Beginner</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Go: Beginner 4.1 - Numbers</title>
