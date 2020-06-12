@@ -14,13 +14,58 @@
     <managingEditor>magpieprogramming@gmail.com (Mr Magpie)</managingEditor>
     <webMaster>magpieprogramming@gmail.com (Mr Magpie)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 12 Jun 2020 10:59:08 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2020 14:39:29 +0100</lastBuildDate>
     
         <atom:link href="https://magpieprogramming.com/series/go-beginner/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Go: Beginner 5 - Functions</title>
+        <link>https://magpieprogramming.com/posts/go/beginner/go.-5-functions/</link>
+        <pubDate>Fri, 12 Jun 2020 14:39:29 +0100</pubDate>
+        <author>magpieprogramming@gmail.com (Mr Magpie)</author>
+        <atom:modified>Fri, 12 Jun 2020 14:39:29 +0100</atom:modified>
+        <guid>https://magpieprogramming.com/posts/go/beginner/go.-5-functions/</guid>
+        <description>Finally, we have made it through that interlude and come out with a full working knowledge of Go types. Let&amp;rsquo;s get to work making use of these new-found skills by making some of our own functions.
+Functions are used in nearly all modern programming languages as a way to bundle a bunch of instructions that work together to achieve some common goal. And we&amp;rsquo;ve already seen plenty of examples of functions, calling them and declaring them.</description>
+        
+        <dc:creator>Mr Magpie</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Go</category>
+            
+          
+            
+              <category>Beginner</category>
+            
+          
+        
+        
+          
+            
+              <category>Go</category>
+            
+          
+            
+              <category>Beginner</category>
+            
+          
+        
+        
+          
+            
+              <category>Go: Beginner</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Go: Beginner 4.3 - Strings</title>
