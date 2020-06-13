@@ -5,7 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Go: Beginner 5 - Functions – Magpie Programming</title>
+    <title>Go: Beginner 6 - Flow Control – Magpie Programming</title>
     
 
 
@@ -551,7 +551,7 @@
 
   
     
-    var permalink = JSON.parse("\"https://magpieprogramming.com/posts/go/beginner/go.-5-functions/\"");
+    var permalink = JSON.parse("\"https://magpieprogramming.com/posts/go/beginner/go.-6-flow-control/\"");
     var searchResults = null;
     var searchMenu = null;
     var searchText = null;
@@ -1217,23 +1217,23 @@
 
 
     
-<meta name="description" content="Go: Putting the func in functions!" />
+<meta name="description" content="If, For, Switch, Defer. Flow control in Go" />
 
 
 <meta name="keywords" content="Go,Beginner">
 
-<meta name="created" content="2020-06-12T14:39:29&#43;0100">
-<meta name="modified" content="2020-06-12T14:39:29&#43;0100">
-<meta property="article:published_time" content="2020-06-12T14:39:29&#43;0100">
+<meta name="created" content="2020-06-12T16:13:05&#43;0100">
+<meta name="modified" content="2020-06-12T16:13:05&#43;0100">
+<meta property="article:published_time" content="2020-06-12T16:13:05&#43;0100">
 
 <meta name="author" content="Mr Magpie">
 
 
 <meta property="og:site_name" content="Magpie Programming">
-<meta property="og:title" content="Go: Beginner 5 - Functions">
-<meta property="og:url" content="https://magpieprogramming.com/posts/go/beginner/go.-5-functions/">
+<meta property="og:title" content="Go: Beginner 6 - Flow Control">
+<meta property="og:url" content="https://magpieprogramming.com/posts/go/beginner/go.-6-flow-control/">
 <meta property="og:type" content="article">
-<meta property="og:description" content="Go: Putting the func in functions!">
+<meta property="og:description" content="If, For, Switch, Defer. Flow control in Go">
 
 <meta name="generator" content="Hugo 0.72.0" />
 <meta name="msapplication-TileColor" content="#fff">
@@ -1244,7 +1244,7 @@
 
 <meta name="apple-mobile-web-app-status-bar-style" content="#fff">
 
-<link rel="canonical" href="https://magpieprogramming.com/posts/go/beginner/go.-5-functions/">
+<link rel="canonical" href="https://magpieprogramming.com/posts/go/beginner/go.-6-flow-control/">
 
 <link rel="manifest" href="/manifest.json">
 
@@ -1270,11 +1270,11 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "Go: Beginner 5 - Functions",
-    "datePublished": "2020-06-12T14:39:29+01:00",
-    "dateModified": "2020-06-12T14:39:29+01:00",
-    "url" : "https://magpieprogramming.com/posts/go/beginner/go.-5-functions/",
-    "description": "Go: Putting the func in functions!",
+    "headline": "Go: Beginner 6 - Flow Control",
+    "datePublished": "2020-06-12T16:13:05+01:00",
+    "dateModified": "2020-06-12T16:13:05+01:00",
+    "url" : "https://magpieprogramming.com/posts/go/beginner/go.-6-flow-control/",
+    "description": "If, For, Switch, Defer. Flow control in Go",
     "keywords": ["Go","Beginner"],
     "mainEntityOfPage": {
       "@type": "WebPage",
@@ -1526,7 +1526,7 @@
   
   <li  class="is-active" >
     
-      <span>Go: Beginner 5 - Functions</span>
+      <span>Go: Beginner 6 - Flow Control</span>
     
   </li>
   
@@ -1538,13 +1538,13 @@
   <div class="single ">
     <div class="single__nojs">This page looks best with JavaScript enabled</div>
     <script>document.querySelector('.single').classList.remove('hide'); document.querySelector('.single__nojs').classList.add('hide');</script>
-    <h2 class="single__title" data-ani="true">Go: Beginner 5 - Functions</h2>
+    <h2 class="single__title" data-ani="true">Go: Beginner 6 - Flow Control</h2>
     <div class="single__meta">
       
 <div class="single__infos">
   <time class="single__info" title="Written At">📅&nbsp;Jun 12, 2020 </time>
   
-  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;4&nbsp;min read </span>
+  &nbsp;&middot;&nbsp; <span class="single__info" title="Reading Time"> ☕&nbsp;10&nbsp;min read </span>
   
   <span class="single__info">
     
@@ -1574,19 +1574,33 @@
   <div class="expand__content expand__content--toc">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#defining-functions">Defining Functions</a></li>
-    <li><a href="#function-calls">Function Calls</a></li>
-    <li><a href="#function-types">Function Types</a></li>
+    <li><a href="#flow-control-in-go">Flow Control in Go</a></li>
+    <li><a href="#if">If</a>
+      <ul>
+        <li><a href="#if-with-statements">If with Statements</a></li>
+        <li><a href="#else-statements">Else statements</a></li>
+        <li><a href="#else-if">Else If</a></li>
+      </ul>
+    </li>
+    <li><a href="#switch">Switch</a></li>
+    <li><a href="#for">For</a>
+      <ul>
+        <li><a href="#break--continue">Break &amp; Continue</a></li>
+        <li><a href="#nesting-loops">Nesting Loops</a></li>
+      </ul>
+    </li>
+    <li><a href="#defer">Defer</a></li>
     <li><a href="#what-next">What Next?</a></li>
   </ul>
 </nav>
   </div>
 </div>
 
-      <p>Finally, we have made it through that interlude and come out with a full working knowledge of Go types. Let&rsquo;s get to work making use of these new-found skills by making some of our own functions.</p>
-<p>Functions are used in nearly all modern programming languages as a way to bundle a bunch of instructions that work together to achieve some common goal. And we&rsquo;ve already seen plenty of examples of functions, calling them and declaring them. Let&rsquo;s get to work in defining our own.</p>
-<h2 id="defining-functions">Defining Functions</h2>
-<p>Functions in Go are defined using the following template syntax in the main body of your program, not in the main function:</p>
+      <p>It&rsquo;s all well and good for us to write a long program that does a prescribed list of instructions and we may even be able to use our new-found experience with functions to make this code neat, but what happens when we want to make a decision on what to do based on some question? Examples of this are telling a character in a video game which way to go based on key presses or making sure we don&rsquo;t exceed some maximum value from user input. Well, for this, we need to work with program flow control. That means conditionals, loops and switches (and deferrals in Go), which are all incredibly important features for implementing our most interesting algorithms and programs.</p>
+<h2 id="flow-control-in-go">Flow Control in Go</h2>
+<p>In Go, we are given four main program flow control statements. Namely, these are: <code>if</code>, <code>switch</code>, <code>for</code> and <code>defer</code>statements. These four statements each have their individual applications in each of our programs and we may not necessarily use all of them in every program (With switch and defer statements, this is particularly the case!), but in all our time programming in Go, we will definitely use all of these. As some housekeeping, when we do use these statements, they always need to be placed into function bodies, not just anywhere in the program file. Let&rsquo;s kick things off with <code>if</code> statements!</p>
+<h2 id="if">If</h2>
+<p>If statements in Go are exactly as you&rsquo;d expect coming from the English language; they make decisions on what to do based on some condition. Should I shoot at this Space Invader? Well, maybe if we&rsquo;re pressing the space bar, but if not, then clearly the answer is no! So, what&rsquo;s the syntax we use in Go for these:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -1594,24 +1608,15 @@
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-Go" data-lang="Go"><span class="kd">func</span> <span class="p">&lt;</span><span class="nx">funcName</span><span class="p">&gt;(</span><span class="nx">arg1</span> <span class="nx">type1</span><span class="p">,</span> <span class="nx">arg2</span> <span class="nx">type2</span><span class="p">,</span> <span class="nx">arg3</span> <span class="nx">type3</span><span class="o">...</span><span class="p">)</span> <span class="p">&lt;</span><span class="nx">returnType</span><span class="p">&gt;</span> <span class="p">{</span>
-	<span class="p">&lt;</span><span class="nx">functionBody</span><span class="p">&gt;</span>
+<pre class="chroma"><code class="language-Go" data-lang="Go"><span class="k">if</span> <span class="nx">condition</span> <span class="p">{</span>
+	<span class="p">&lt;</span><span class="nx">conditional</span> <span class="nx">code</span><span class="p">&gt;</span>
 <span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>Breaking this down, we begin each function declaration by using the<code>func</code>keyword, followed by the function&rsquo;s name that we can choose. We can then give a list of zero or more arguments that we want passed to the function each time it gets called (or used). Each of these arguments are named by us, similarly to variables and we must give each argument a type. Note: We can actually replace the<code>arg1 type1, arg2 type2</code>syntax with<code>arg1, arg2 type</code>syntax when arg1 and arg2 have the same type. After the arguments list in parentheses, we add the type we expect to be returned by the function, finishing the line with an open brace<code>{</code>.</p>
-<p>The lines below the first constitute the function body and can consist of anything you would normally write in a typical main() function, all typically indented by one tab. There is one exception and that is the<code>return</code>statement:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-Go" data-lang="Go"><span class="k">return</span> <span class="p">&lt;</span><span class="nx">val</span><span class="p">&gt;</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>This statement is an instruction to the function itself that, at this point, the computation of the function is over and it can now produce some value to whatever called the function. As a result, the return statement&rsquo;s values must have the type you told the function it was to return!</p>
-<div class="box">It is actually possible for Go functions to return multiple types at a time by replacing the return type with a tuple of these types, written <code>(type1, type2)</code>. This does also change the return statement slightly, which is to have a comma-separated list of values to be returned, such as <code>return val1, val2</code>.</div>
-<p>And eventually, to finish off our function block and to mark the end of our instructions, we add a closing brace<code>}</code>. There we have it, function defined and ready to use. As a final example, let&rsquo;s create a &lsquo;doAddition&rsquo; function that takes three integers and return their sum:</p>
+</div><p>Fairly straightforward and not too dissimilar to our function bodies. We start of with the <code>if</code> keyword, followed by our condition. The condition we pass to the if can be any &lsquo;bool&rsquo; value, especially a long logic statement as described in 4.2. We then add a brace <code>{</code> to begin our conditional code block, add our conditional code as indented statements and finally finish our code block with a closing brace &lsquo;}&rsquo;.</p>
+<p>As should be expected, if the condition you&rsquo;ve passed our statement is true when it is executed, we run all the code in the block. If it&rsquo;s false at execution, we don&rsquo;t. it really is that simple.</p>
+<h3 id="if-with-statements">If with Statements</h3>
+<p>If statements can also take on a different syntax, which is they can contain a short one line variable assignment statement before our condition. We say these variables are only &lsquo;in scope&rsquo; until the closing brace of our if statement, meaning it will only actually exist up until that point. Here we have an example, where we print out an integer, x, only if it is divisible by 3:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -1619,38 +1624,254 @@
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-Go" data-lang="Go"><span class="kd">func</span> <span class="nf">doAddition</span><span class="p">(</span><span class="nx">num1</span><span class="p">,</span> <span class="nx">num2</span><span class="p">,</span> <span class="nx">num3</span> <span class="kt">int</span><span class="p">)</span> <span class="kt">int</span> <span class="p">{</span>
-	<span class="k">return</span> <span class="nx">num1</span> <span class="o">+</span> <span class="nx">num2</span> <span class="o">+</span> <span class="nx">num3</span>
+<pre class="chroma"><code class="language-Go" data-lang="Go"><span class="k">if</span> <span class="nx">rem</span> <span class="o">:=</span> <span class="nx">x</span> <span class="o">%</span> <span class="mi">3</span><span class="p">;</span> <span class="nx">rem</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">{</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span>
 <span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>Fantastic, now we&rsquo;ve got our function defined, how do we make use of it?</p>
-<h2 id="function-calls">Function Calls</h2>
-<p>Pretty easily, it turns out! All we need to do is give the name of the function and then a parenthesis-surrounded, comma-separated list of the arguments we want to give our function. Functions can only be called in other functions, like our main() function and the arguments obviously have to be the types we&rsquo;ve told the function to expect, unless we like red font in our terminals. Using our example:</p>
+</div><p>As we can see here, we only need to add the statement, followed by a semicolon<code>;</code> before our condition.</p>
+<h3 id="else-statements">Else statements</h3>
+<p>The next addition we might want to make to our if statements is to add some code to execute if the condition isn&rsquo;t true (an alternative, if you will). for this, we can add an else statement after the closing brace of our condition block, as well as a new conditional block that will be executed if the initial condition was not fulfilled. We can modify our last example to print some text if x wasn&rsquo;t divisible by 3:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-Go" data-lang="Go"><span class="nf">doAddition</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+<pre class="chroma"><code class="language-Go" data-lang="Go"><span class="k">if</span> <span class="nx">rem</span> <span class="o">:=</span> <span class="nx">x</span> <span class="o">%</span> <span class="mi">3</span><span class="p">;</span> <span class="nx">rem</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">{</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Not divisible by 3!&#34;</span><span class="p">)</span>
+<span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>Very simple, and through experimentation, we would soon realise that these function calls act in exactly the same way as any other value, so we can pass function calls to function calls and it will work as expected:</p>
+</div><p>There we are, and so if we now set x = 5, we&rsquo;ll notice we get that text as output instead of our number back. It&rsquo;s worth noting that this &lsquo;scope&rsquo; is now extended to the next close brace and so we are perfectly allowed to print<code>rem</code>in our &lsquo;else&rsquo; block instead.</p>
+<h3 id="else-if">Else If</h3>
+<p>We&rsquo;ve had &lsquo;If Else&rsquo; statements now, so why not add in &lsquo;Else If&rsquo; statements? What would happen if we want to test for a series of conditions and only ever execute one block of code? Well, we can add an extra &lsquo;If&rsquo; statement to our &lsquo;else&rsquo; line. So, extending our example, let&rsquo;s make it possible to print numbers that are divisible by 5 too:</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-Go" data-lang="Go"><span class="nf">doAddition</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="nf">doAddition</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span>
+<pre class="chroma"><code class="language-Go" data-lang="Go"><span class="k">if</span> <span class="nx">rem</span> <span class="o">:=</span> <span class="nx">x</span> <span class="o">%</span> <span class="mi">3</span><span class="p">;</span> <span class="nx">rem</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">{</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span>
+<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="nx">x</span> <span class="o">%</span> <span class="mi">5</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">{</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">x</span><span class="p">)</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Not divisible by 3 or 5!&#34;</span><span class="p">)</span>
+<span class="p">}</span>
 </code></pre></td></tr></table>
 </div>
-</div><p>As such, we can try passing the result of our function calls to a<code>Println</code>statement or in an assignment and it will work as expected.</p>
-<h2 id="function-types">Function Types</h2>
-<p>Not to talk about other languages in front of our good friend, but Lisp has been a critical language in the development of computer science and programming since its inception in 1958. One crucial feature of Lisp was the addition of first-class functions. That is, functions defined by the programmer can be passed around in a very similar way to numbers, Booleans and strings. So, in this way, we can have a function that returns a function.</p>
-<p>Go actually has this as an implementation feature and it can be extremely useful in certain scenarios, massively increasing the efficiency and/or readability of otherwise cumbersome code. Although we&rsquo;re not going to get into this now, it is definitely worth bearing in mind and we will be delving deeper into the possibilities this affords at a later point.</p>
-<h2 id="what-next">What Next?</h2>
-<p>After discovering how to define our own functions, we&rsquo;re going to move on to deal with these pesky program flow structures: <code>if</code>statements, <code>for</code>loops, <code>switch</code> and <code>defer</code> statements.</p>
-<p>Continue to <a href="https://magpieprogramming.com/posts/go/beginner/go.-6-flow-control/">Go: Beginner 6 - Flow Control</a></p>
+</div><p>Here we go! Now our code is starting to look impressive and we&rsquo;re able to do some more useful algorithms. Let&rsquo;s carry on and have a look at another way of doing something similar and move on to Switch statements.</p>
+<h2 id="switch">Switch</h2>
+<p>Switch statements are incredibly useful blocks for improving code readability and compacting a lot of otherwise cumbersome syntax into small, organised cases. Switch statements in Go act in a similar way to Go statements, except rather than using a condition, it can use a value of any sort and contains &lsquo;cases&rsquo; that are compared against this value and, if seen to be equal, are executed. We can also give our programs a &lsquo;default&rsquo; case that will macth if none of our others do.</p>
+<p>Now, unlike in many other languages, ike Java, C and C++, Go only executes the case that is matched and does not &ldquo;fall through&rdquo; to the next case without a &lsquo;break&rsquo; statement. So, let&rsquo;s have an example. Let&rsquo;s say we want to test a string, name, for a recognised name, giving a bespoke output for each person:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Go" data-lang="Go"><span class="k">switch</span> <span class="nx">name</span> <span class="p">{</span>
+<span class="k">case</span> <span class="s">&#34;magpie&#34;</span><span class="p">:</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Where&#39;s Mrs Magpie?&#34;</span><span class="p">)</span>
+<span class="k">case</span> <span class="s">&#34;gopher&#34;</span><span class="p">:</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Go, Go, Gopher!&#34;</span><span class="p">)</span>
+<span class="k">default</span><span class="p">:</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Do I know you?&#34;</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>So now, if we assign name to be &ldquo;magpie&rdquo; or &ldquo;gopher&rdquo;, we get a custom output and anyone else will get some generic message. It&rsquo;s just a nice, succinct way of having a list of possible conditions without having to use endless &lsquo;else if&rsquo; statements! And if need be, we can add the extra statement to our switch as we did in our &lsquo;if&rsquo; statements.</p>
+<div class="box">Note: It&rsquo;s worth being wary when using these switch statements around those more conventional programmers and software engineers. As with every programming pattern, there are preferred ways to use certain statements and those not so favoured. Just do your best to produce code that matches your intended goals (whether that be efficiency, cleanliness or adherence to conventions).</div>
+<h2 id="for">For</h2>
+<p>For statements are Go&rsquo;s primary and only built in statements to enter a loop in your progrmam. Those of you coming from other languages, you may start mourning your beloved &lsquo;while&rsquo; loops now, but Go shows that they&rsquo;re not necessary. Typically, when we&rsquo;re programming we&rsquo;ll want to repeatedly perform some action some number of times or even, in some circumstances, until we shut off the program. For loops in Go provide the ability to do this in an understandable and as clean a way as possible. Let&rsquo;s take a look at the syntax, by supposing we want to print 0 through to 9:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Go" data-lang="Go"><span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="p">&lt;</span> <span class="mi">10</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>So we have a<code>for</code> keyword followed by three statements and then our code block (surrounded by braces, of course). Let&rsquo;s take a slightly longer look at the three statements here:</p>
+<ul>
+<li>Initialiser statement: where we declare a variable to use for looping and it defines our starting point for counting.</li>
+<li>Condition: which must be satisfied every time the code block is to begin again.</li>
+<li>Post statement: gives an instruction to be executed every time the code block has finished.</li>
+</ul>
+<p>All three are important for many situations, but we can, in fact, have for loops with no initialiser (maybe we&rsquo;re using a variable defined earlier) and/or no post statement (we might want to do something more complicated with our variable), which can be expressed like so:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Go" data-lang="Go"><span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="p">&lt;</span> <span class="mi">10</span><span class="p">;</span> <span class="p">{</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span>
+	<span class="nx">i</span><span class="o">++</span>
+<span class="p">}</span>
+
+<span class="p">&lt;</span><span class="nx">OR</span><span class="p">&gt;</span>
+
+<span class="k">for</span> <span class="p">;</span> <span class="nx">i</span> <span class="p">&lt;</span> <span class="mi">10</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span>
+<span class="p">}</span>
+
+<span class="p">&lt;</span><span class="nx">OR</span><span class="p">&gt;</span>
+
+<span class="k">for</span> <span class="p">;</span> <span class="nx">i</span> <span class="p">&lt;</span> <span class="mi">10</span><span class="p">;</span> <span class="p">{</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span>
+	<span class="nx">i</span><span class="o">++</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>From these examples, we can also see that, like in our longer &lsquo;If&rsquo; statements, our loop variable is &lsquo;in scope&rsquo; for the entirety of the loop block.</p>
+<p>&ldquo;Where&rsquo;s my WHILE loop?&rdquo; I hear the strangely obsessive older programmers cry from the back of the room. Here it is, that final statement! Don&rsquo;t like the semicolons in the last for loop? Just go ahead and remove them, Go will let you and not complain:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Go" data-lang="Go"><span class="k">for</span> <span class="nx">i</span> <span class="p">&lt;</span> <span class="mi">10</span> <span class="p">{</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span>
+	<span class="nx">i</span><span class="o">++</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>I feel we&rsquo;re on a roll, let&rsquo;s remove one more thing: the condition.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Go" data-lang="Go"><span class="k">for</span> <span class="p">{</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Still Going!&#34;</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>We&rsquo;ve just created an infinite loop, because when interpreting this, all we are saying is <code>for true</code>. This loop won&rsquo;t stop until we tell it to, or close the program completely.</p>
+<h3 id="break--continue">Break &amp; Continue</h3>
+<p>Telling it to stop is as simple as just that. One word that tells the program, &ldquo;When you get to this point, don&rsquo;t loop anymore&rdquo;. That statement is <code>break</code> and is added into for loop bodies very easily:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Go" data-lang="Go"><span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="p">&lt;</span> <span class="mi">10</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span>
+	<span class="k">if</span> <span class="nx">i</span> <span class="o">==</span> <span class="mi">5</span> <span class="p">{</span>
+		<span class="k">break</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>All this loop does currently is count to 5, not 10, and then finish. You&rsquo;ll very likely find many other uses for break statements as time goes on and typically consists of realising you&rsquo;ve done something enough times to satisfy some condition.</p>
+<p>Continue statements are nearly the opposite of break statements. Rather than rushing to finish a loop before the rest of the code block has been executed, these statements rush to get to the next iteration of the loop, forgetting the rest of the code block. Let&rsquo;s say we really don&rsquo;t like the number 4 and wan&rsquo;t to skip it:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Go" data-lang="Go"><span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="p">&lt;</span> <span class="mi">10</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+	<span class="k">if</span> <span class="nx">i</span> <span class="o">==</span> <span class="mi">4</span> <span class="p">{</span>
+		<span class="k">continue</span>
+	<span class="p">}</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>Et voilà! When we get to four, we continue on to five with no hard feelings (and more importantly no printing). That&rsquo;s the only two statements we need to deal with our loops from inside</p>
+<h3 id="nesting-loops">Nesting Loops</h3>
+<p>One final word to say about for loops is that we can put one loop inside another, inside another etc, etc. So called &lsquo;nested&rsquo; for loops are useful for so many things, but, as an example, looking at all the pixels on an image at coordinates (x, y). Simply write one for loop inside another, preferrably with different loop variables, rinse and repeat!</p>
+<h2 id="defer">Defer</h2>
+<p>Defer statements are a feature in Go that I have certainly never come across in basic programming of any other languages. It provides an easy syntax to &lsquo;defer&rsquo; doing an action until the function it was called from has completely finished, like so:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Go" data-lang="Go"><span class="kd">func</span> <span class="nf">deferPrint</span><span class="p">()</span> <span class="p">{</span>
+	<span class="k">defer</span> <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="s">&#34;Go&#34;</span><span class="p">)</span>
+	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Print</span><span class="p">(</span><span class="s">&#34;Hello&#34;</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>We can even make multiple defer statements from a single function. Afterwards, they&rsquo;ll be executed in the reverse order to how we issued them (First-in, Last-out):</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-Go" data-lang="Go"><span class="kd">func</span> <span class="nf">deferPrint</span><span class="p">()</span> <span class="p">{</span>
+	<span class="k">for</span> <span class="nx">i</span> <span class="o">:=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="p">&lt;</span> <span class="mi">5</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span> <span class="p">{</span>
+		<span class="k">defer</span> <span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span>
+		<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">i</span><span class="p">)</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="what-next">What Next?</h2>
+<p>All of Go&rsquo;s flow control statements summed up in one (somewhat long) post, but now we are properly set to start making some projects with some user input, conditionals and useful feedback to the user! Hopefully the slightly longer post hasn&rsquo;t put you off. I promise our next one, on pointers will be considerably shorter! We suggest you take some time now to conduct some &ldquo;graduation&rdquo; experiments with what you&rsquo;ve learned before moving on to our Go: Basics course.</p>
+<p>Continue to <a href="https://magpieprogramming.com/posts/go/basic/go.-1-pointers/">Go: Basic 1 - Pointers</a></p>
+<p>Remember to get in touch with us if you have any questions, issues or ideas you&rsquo;d like us to cover here at <a href="https://magpieprogramming.com/about/">magpieprogramming.com</a></p>
 
     </article>
     
@@ -1712,19 +1933,19 @@
     
     
       
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmagpieprogramming.com%2fposts%2fgo%2fbeginner%2fgo.-5-functions%2f" title="Facebook" aria-label="Facebook Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fmagpieprogramming.com%2fposts%2fgo%2fbeginner%2fgo.-6-flow-control%2f" title="Facebook" aria-label="Facebook Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
           <svg data-name="facebook" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/></svg>
         </a>
       
     
       
-        <a href="https://www.reddit.com/submit?url=https%3a%2f%2fmagpieprogramming.com%2fposts%2fgo%2fbeginner%2fgo.-5-functions%2f&amp;title=Go%3a%20Beginner%205%20-%20Functions" target="_blank" rel="noreferer" title="Reddit" aria-label="Reddit Share Button" onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(document.URL) + '&amp;title=' +  encodeURIComponent(document.title)); return false;" class="donation__item" data-type="share">
+        <a href="https://www.reddit.com/submit?url=https%3a%2f%2fmagpieprogramming.com%2fposts%2fgo%2fbeginner%2fgo.-6-flow-control%2f&amp;title=Go%3a%20Beginner%206%20-%20Flow%20Control" target="_blank" rel="noreferer" title="Reddit" aria-label="Reddit Share Button" onclick="window.open('http://www.reddit.com/submit?url=' + encodeURIComponent(document.URL) + '&amp;title=' +  encodeURIComponent(document.title)); return false;" class="donation__item" data-type="share">
           <svg data-name="reddit" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m21.325 9.308c-.758 0-1.425.319-1.916.816-1.805-1.268-4.239-2.084-6.936-2.171l1.401-6.406 4.461 1.016c0 1.108.89 2.013 1.982 2.013 1.113 0 2.008-.929 2.008-2.038s-.889-2.038-2.007-2.038c-.779 0-1.451.477-1.786 1.129l-4.927-1.108c-.248-.067-.491.113-.557.365l-1.538 7.062c-2.676.113-5.084.928-6.895 2.197-.491-.518-1.184-.837-1.942-.837-2.812 0-3.733 3.829-1.158 5.138-.091.405-.132.837-.132 1.268 0 4.301 4.775 7.786 10.638 7.786 5.888 0 10.663-3.485 10.663-7.786 0-.431-.045-.883-.156-1.289 2.523-1.314 1.594-5.115-1.203-5.117zm-15.724 5.41c0-1.129.89-2.038 2.008-2.038 1.092 0 1.983.903 1.983 2.038 0 1.109-.89 2.013-1.983 2.013-1.113.005-2.008-.904-2.008-2.013zm10.839 4.798c-1.841 1.868-7.036 1.868-8.878 0-.203-.18-.203-.498 0-.703.177-.18.491-.18.668 0 1.406 1.463 6.07 1.488 7.537 0 .177-.18.491-.18.668 0 .207.206.207.524.005.703zm-.041-2.781c-1.092 0-1.982-.903-1.982-2.011 0-1.129.89-2.038 1.982-2.038 1.113 0 2.008.903 2.008 2.038-.005 1.103-.895 2.011-2.008 2.011z"/></svg>
         </a>
       
     
       
-        <a href="https://twitter.com/intent/tweet?text=Go%3a%20Beginner%205%20-%20Functions&url=https%3a%2f%2fmagpieprogramming.com%2fposts%2fgo%2fbeginner%2fgo.-5-functions%2f&hashtags=Go%2cBeginner&via=" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
+        <a href="https://twitter.com/intent/tweet?text=Go%3a%20Beginner%206%20-%20Flow%20Control&url=https%3a%2f%2fmagpieprogramming.com%2fposts%2fgo%2fbeginner%2fgo.-6-flow-control%2f&hashtags=Go%2cBeginner&via=" title="Twitter" aria-label="Twitter Share Button" class="donation__item" target="_blank" rel="noreferrer" data-type="share">
           <svg data-name="twitter" enable-background="new 0 0 24 24" viewBox="0 0 24 24" width="35" height="35" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="m21.534 7.113c.976-.693 1.797-1.558 2.466-2.554v-.001c-.893.391-1.843.651-2.835.777 1.02-.609 1.799-1.566 2.165-2.719-.951.567-2.001.967-3.12 1.191-.903-.962-2.19-1.557-3.594-1.557-2.724 0-4.917 2.211-4.917 4.921 0 .39.033.765.114 1.122-4.09-.2-7.71-2.16-10.142-5.147-.424.737-.674 1.58-.674 2.487 0 1.704.877 3.214 2.186 4.089-.791-.015-1.566-.245-2.223-.606v.054c0 2.391 1.705 4.377 3.942 4.835-.401.11-.837.162-1.29.162-.315 0-.633-.018-.931-.084.637 1.948 2.447 3.381 4.597 3.428-1.674 1.309-3.8 2.098-6.101 2.098-.403 0-.79-.018-1.177-.067 2.18 1.405 4.762 2.208 7.548 2.208 8.683 0 14.342-7.244 13.986-14.637z"/></svg>
         </a>
       
@@ -1868,6 +2089,10 @@
     <ul class="related-ul">
         
         <li>
+          <a href="/posts/go/beginner/go.-5-functions/" class="related__link">Go: Beginner 5 - Functions</a>
+        </li>
+        
+        <li>
           <a href="/posts/go/beginner/go.-4.3-strings/" class="related__link">Go: Beginner 4.3 - Strings</a>
         </li>
         
@@ -1883,10 +2108,6 @@
           <a href="/posts/go/beginner/go.-3-variables/" class="related__link">Go: Beginner 3 - Variables</a>
         </li>
         
-        <li>
-          <a href="/posts/go/beginner/go.-2-types/" class="related__link">Go: Beginner 2 - Types</a>
-        </li>
-        
     </ul>
     
   </section>
@@ -1894,21 +2115,14 @@
 <nav class="pagination-single">
   
     
-      <a href="https://magpieprogramming.com/posts/go/beginner/go.-4.3-strings/" class="pagination-single__left">
+      <a href="https://magpieprogramming.com/posts/go/beginner/go.-5-functions/" class="pagination-single__left">
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
         </div>
-        <div class="pagination-single__left-title">Go: Beginner 4.3 - Strings</div>      
+        <div class="pagination-single__left-title">Go: Beginner 5 - Functions</div>      
       </a>
     
     <div class="grow"></div>
-    
-      <a href="https://magpieprogramming.com/posts/go/beginner/go.-6-flow-control/" class="pagination-single__right">      
-        <div class="pagination-single__right-title">Go: Beginner 6 - Flow Control</div>
-        <div class="pagination-single__icon">
-          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
-        </div>
-      </a>
     
   
 </nav>
@@ -2266,9 +2480,22 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="toc " data-dir="ltr" data-folding="false" data-ani="true">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#defining-functions">Defining Functions</a></li>
-    <li><a href="#function-calls">Function Calls</a></li>
-    <li><a href="#function-types">Function Types</a></li>
+    <li><a href="#flow-control-in-go">Flow Control in Go</a></li>
+    <li><a href="#if">If</a>
+      <ul>
+        <li><a href="#if-with-statements">If with Statements</a></li>
+        <li><a href="#else-statements">Else statements</a></li>
+        <li><a href="#else-if">Else If</a></li>
+      </ul>
+    </li>
+    <li><a href="#switch">Switch</a></li>
+    <li><a href="#for">For</a>
+      <ul>
+        <li><a href="#break--continue">Break &amp; Continue</a></li>
+        <li><a href="#nesting-loops">Nesting Loops</a></li>
+      </ul>
+    </li>
+    <li><a href="#defer">Defer</a></li>
     <li><a href="#what-next">What Next?</a></li>
   </ul>
 </nav>

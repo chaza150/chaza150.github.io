@@ -14,13 +14,57 @@
     <managingEditor>magpieprogramming@gmail.com (Mr Magpie)</managingEditor>
     <webMaster>magpieprogramming@gmail.com (Mr Magpie)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 12 Jun 2020 14:39:29 +0100</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2020 16:13:05 +0100</lastBuildDate>
     
         <atom:link href="https://magpieprogramming.com/categories/go/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Go: Beginner 6 - Flow Control</title>
+        <link>https://magpieprogramming.com/posts/go/beginner/go.-6-flow-control/</link>
+        <pubDate>Fri, 12 Jun 2020 16:13:05 +0100</pubDate>
+        <author>magpieprogramming@gmail.com (Mr Magpie)</author>
+        <atom:modified>Fri, 12 Jun 2020 16:13:05 +0100</atom:modified>
+        <guid>https://magpieprogramming.com/posts/go/beginner/go.-6-flow-control/</guid>
+        <description>It&amp;rsquo;s all well and good for us to write a long program that does a prescribed list of instructions and we may even be able to use our new-found experience with functions to make this code neat, but what happens when we want to make a decision on what to do based on some question? Examples of this are telling a character in a video game which way to go based on key presses or making sure we don&amp;rsquo;t exceed some maximum value from user input.</description>
+        
+        <dc:creator>Mr Magpie</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Go</category>
+            
+          
+            
+              <category>Beginner</category>
+            
+          
+        
+        
+          
+            
+              <category>Go</category>
+            
+          
+            
+              <category>Beginner</category>
+            
+          
+        
+        
+          
+            
+              <category>Go: Beginner</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Go: Beginner 5 - Functions</title>
