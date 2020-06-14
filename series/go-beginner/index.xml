@@ -14,13 +14,58 @@
     <managingEditor>magpieprogramming@gmail.com (Mr Magpie)</managingEditor>
     <webMaster>magpieprogramming@gmail.com (Mr Magpie)</webMaster>
     <copyright>©{year}, All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 12 Jun 2020 16:13:05 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2020 10:49:08 +0100</lastBuildDate>
     
         <atom:link href="https://magpieprogramming.com/series/go-beginner/index.xml" rel="self" type="application/rss+xml" />
     
     
     
 
+      
+      <item>
+        <title>Go: Beginner Finale - FizzBuzz!</title>
+        <link>https://magpieprogramming.com/posts/go/beginner/go.-7-fizzbuzz/</link>
+        <pubDate>Sun, 14 Jun 2020 10:49:08 +0100</pubDate>
+        <author>magpieprogramming@gmail.com (Mr Magpie)</author>
+        <atom:modified>Sun, 14 Jun 2020 10:49:08 +0100</atom:modified>
+        <guid>https://magpieprogramming.com/posts/go/beginner/go.-7-fizzbuzz/</guid>
+        <description>FizzBuzz is an old children&amp;rsquo;s game designed to help schoolchildren understand multiples in a fun way. The game follows a few simple rules:
+ Count from 1 to 100 Each time you get to a multiple of 3, shout &amp;lsquo;Fizz&amp;rsquo; instead. Each time you get to a multiple of 5, shout &amp;lsquo;Buzz&amp;rsquo; instead. When you get to a multiple of both 3 and 5, shout &amp;lsquo;FizzBuzz&amp;rsquo;!  Pretty straightforward game with short, easy-to-understand rules.</description>
+        
+        <dc:creator>Mr Magpie</dc:creator>
+        
+        
+        
+        
+          
+            
+              <category>Go</category>
+            
+          
+            
+              <category>Beginner</category>
+            
+          
+        
+        
+          
+            
+              <category>Go</category>
+            
+          
+            
+              <category>Beginner</category>
+            
+          
+        
+        
+          
+            
+              <category>Go: Beginner</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Go: Beginner 6 - Flow Control</title>
